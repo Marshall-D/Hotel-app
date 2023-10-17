@@ -20,11 +20,11 @@ const Card = () => {
                     />
                 </div>
                 <div className="info relative">
-                    <div className="font-bold text-xl mb-2">
+                    <div className="font-bold text-l mb-2">
                         Montmore, France
                     </div>
                     <div
-                        className="text-sm mb-2 text-gray"
+                        className="text-xs mb-2 text-gray"
                         style={{ width: "75%" }}
                     >
                         Visiting the best areas saved by the tourists

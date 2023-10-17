@@ -10,8 +10,12 @@ const Card = () => {
             <div className="flex  relative gap-4">
                 <div className="absolute right-0 text-sm flex  gap-1 items-center">
                     {" "}
-                    <Icon component={StarIcon} color="warning" />{" "}
-                    <span>4/5</span>{" "}
+                    <Icon
+                        component={StarIcon}
+                        color="warning"
+                        fontSize="small"
+                    />{" "}
+                    <span style={{ fontSize: 10 }}>4/5</span>{" "}
                 </div>
                 <div className="image rounded-3xl" style={{ width: 120 }}>
                     <img

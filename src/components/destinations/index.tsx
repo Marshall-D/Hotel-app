@@ -20,7 +20,7 @@ const Card = () => {
                     />
                 </div>
                 <div className="info relative">
-                    <div className="font-bold text-2xl mb-2">
+                    <div className="font-bold text-xl mb-2">
                         Montmore, France
                     </div>
                     <div

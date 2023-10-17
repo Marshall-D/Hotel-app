@@ -14,7 +14,8 @@ module.exports = {
                 dmSans: ["DM Sans", "sans-serif"],
             },
             backgroundImage: {
-                "hero-pattern": "url('/img/skyline.jpeg')",
+                "hero-pattern": "url('/img/woman.jpeg')",
+                "hero-pattern-2": "url('/img/skyline.jpeg')",
             },
             colors: {
                 success: {

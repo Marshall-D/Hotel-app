@@ -23,7 +23,7 @@ const Card = () => {
                         <img
                             className=" w-full object-cover rounded-2xl "
                             style={{ height: 100 }}
-                            src="/img/skyline.jpeg"
+                            src="/img/france.jpeg"
                         />
                     </div>
                     <div className=" font-bold text-l mb-2 mt-3">

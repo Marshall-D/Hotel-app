@@ -11,6 +11,7 @@ import {
     Sidebar,
 } from "@components";
 import { Offers } from "@components/offers";
+import { Explore } from "@components/explore";
 
 const Home: React.FC = () => {
     return (
@@ -24,7 +25,7 @@ const Home: React.FC = () => {
                 <Hero />
                 <Destinations />
                 <Offers />
-                <Destinations />
+                <Explore />
             </main>
 
             {/*  

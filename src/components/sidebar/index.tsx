@@ -1,10 +1,12 @@
 import React from "react";
 import { Icon } from "@mui/material";
 import HomeIcon from "@mui/icons-material/Home";
-import ChevronLeftIcon from "@mui/icons-material/ChevronLeft";
-
+import ChevronRightIcon from "@mui/icons-material/ChevronRight";
+import AppsOutlinedIcon from "@mui/icons-material/AppsOutlined";
 import { Logo } from "@components";
-
+import EmailIcon from "@mui/icons-material/Email";
+import FavoriteIcon from "@mui/icons-material/Favorite";
+import SettingsIcon from "@mui/icons-material/Settings";
 export const Sidebar: React.FC = () => {
     return (
         <div
@@ -26,39 +28,39 @@ export const Sidebar: React.FC = () => {
                 </div>
                 <div className="flex gap-2 p-4  ">
                     <Icon
-                        component={ChevronLeftIcon}
+                        component={AppsOutlinedIcon}
                         color="action"
-                        className="border border-black  bg-white rounded-lg"
+                        className=" bg-white rounded-lg"
                     />{" "}
                     Explore City
                 </div>
                 <div className="flex gap-2 p-4 ">
                     <Icon
-                        component={ChevronLeftIcon}
+                        component={EmailIcon}
                         color="action"
-                        className="border border-black  bg-white rounded-lg"
+                        className=" bg-white rounded-lg"
                     />{" "}
                     Ticket
                 </div>
                 <div className="flex gap-2 p-4 ">
                     <Icon
-                        component={ChevronLeftIcon}
+                        component={FavoriteIcon}
                         color="action"
-                        className="border border-black  bg-white rounded-lg"
+                        className="bg-white rounded-lg"
                     />{" "}
                     Favorites
                 </div>{" "}
                 <div className="flex gap-2 p-4 ">
                     <Icon
-                        component={ChevronLeftIcon}
+                        component={SettingsIcon}
                         color="action"
-                        className="border border-black  bg-white rounded-lg"
+                        className="bg-white rounded-lg"
                     />{" "}
                     Settings
                 </div>
                 <div className="flex gap-2 p-4" style={{ marginTop: 200 }}>
                     <Icon
-                        component={ChevronLeftIcon}
+                        component={ChevronRightIcon}
                         color="action"
                         className="border border-black  bg-white rounded-lg"
                     />{" "}

@@ -20,12 +20,12 @@ const Card = () => {
                 <div className="image rounded-3xl" style={{ width: 120 }}>
                     <img
                         className="h-full w-full object-cover rounded-2xl "
-                        src="/img/London.jpeg"
+                        src="/img/turkey.jpeg"
                     />
                 </div>
                 <div className="info relative">
                     <div className="font-bold text-l mb-2">
-                        Montmore, France
+                        Eiffel Tower, France
                     </div>
                     <div
                         className="text-xs mb-2 text-gray"
@@ -33,28 +33,20 @@ const Card = () => {
                     >
                         Visiting the best areas saved by the tourists
                     </div>
-                    <div className="text-xl text-gray">$450,000</div>
+                    <div className="text-xl text-gray">$50,000</div>
                 </div>
             </div>
         </div>
     );
 };
 
-export const Destinations: React.FC = () => {
+export const Explore: React.FC = () => {
     return (
         // add two icons  to the end of trending
         <div className="mt-0 w-full">
             <div className="relative p-10">
                 <div className="text-2xl mb-4  absolute left-0">
-                    Trending destinations
-                </div>
-                <div className="absolute right-10 border border-black  bg-black rounded-lg">
-                    {" "}
-                    <Icon component={ChevronRightIcon} color="info" />{" "}
-                </div>
-                <div className="absolute right-20  border border-black  bg-white rounded-lg">
-                    {" "}
-                    <Icon component={ChevronLeftIcon} color="action" />{" "}
+                    Explore France{" "}
                 </div>
             </div>
             <div className="flex gap-4 justify-between">

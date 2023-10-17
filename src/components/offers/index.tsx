@@ -70,7 +70,7 @@ export const Offers: React.FC = () => {
                 <div className="text-2xl mb-4">Best Offers</div>
 
                 <div className="flex">
-                    <div className="" style={{ marginTop: -38 }}>
+                    <div className="" style={{ marginTop: -39 }}>
                         {" "}
                         <Icon
                             component={CircleIcon}
@@ -87,7 +87,7 @@ export const Offers: React.FC = () => {
                             sx={{ fontSize: 15 }}
                         />{" "}
                     </div>{" "}
-                    <div className="" style={{ marginTop: -38 }}>
+                    <div className="" style={{ marginTop: -39 }}>
                         {" "}
                         <Icon
                             component={CircleIcon}
